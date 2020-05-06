@@ -1,20 +1,30 @@
 What happens when you initialize a repository? Why do you need to do it?
--(.get file) created in that repository contain my commits history , i need to do that to keep my history and to treat with this file as a git not a normal file. 
+-(.get file) created in that repository contain my commits history , i 
+need to do that to keep my history and to treat with this file as a git 
+not a normal file. 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
--it's a stage betwwen working directory & repository. In this stage you choose to make the commit on on file or more.
+-it's a stage betwwen working directory & repository. In this stage you choose
+ to make the commit on on file or more.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+-using (git diff) i can now my last changes and difference between working directory 
+&staging area so i can be sure of that.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+- if i want to keep original copy without change or for exp or use another interface
+,and keep my code organized while working with other people.
 
 How do the diagrams help you visualize the branch structure?
+- i can know that history is linear or not from this diagram 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+- new commit, to be clear to understand
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+- you can see if there is a conflict and solve this problem first
